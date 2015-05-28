@@ -1,0 +1,56 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Gallery4Phone.pgArtist"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Style="{StaticResource PhoneTextNormalStyle}">
+            	<Run Text="MY "/>
+            	<Run Text="Gallery"/>
+            </TextBlock>
+            <TextBlock Text="edit artist" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        <Grid x:Name="ContentPanel" Margin="14,151,10,10" Grid.RowSpan="2">
+            <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Name:" VerticalAlignment="Top" Width="93" FontSize="22"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,63,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="22" Text="Speciality:"/>
+            <TextBlock HorizontalAlignment="Left" Margin="10,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="22" Text="Phone:"/>
+            <TextBox x:Name="txtName" HorizontalAlignment="Left" Height="66" Margin="111,-7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="345" FontSize="22"/>
+            <TextBox x:Name="txtSpeciality" HorizontalAlignment="Left" Height="65" Margin="111,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="345" FontSize="22"/>
+            <TextBox x:Name="txtPhone" HorizontalAlignment="Left" Height="65" Margin="111,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="345" FontSize="22"/>
+            <ListBox x:Name="lstWorks" HorizontalAlignment="Left" Height="335" Margin="10,164,0,0" VerticalAlignment="Top" Width="323" FontSize="24"/>
+            <Button x:Name="btnAdd" Content="Add" HorizontalAlignment="Left" Margin="333,159,0,0" VerticalAlignment="Top" Height="83" Width="123"/>
+            <Button x:Name="btnEdit" Content="Edit" HorizontalAlignment="Left" Margin="333,242,0,0" VerticalAlignment="Top" Height="83" Width="123"/>
+            <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="333,325,0,0" VerticalAlignment="Top" Width="123" Height="83"/>
+            <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="333,408,0,0" VerticalAlignment="Top" Height="83" Width="123" Click="btnSave_Click"/>
+            <ScrollViewer HorizontalAlignment="Left" Margin="0,509,0,0" VerticalAlignment="Top" Height="88" Width="456">
+                <ScrollViewer Height="88" Width="456">
+                    <TextBlock x:Name="txbMessage" TextWrapping="Wrap" Width="456" FontSize="24"/>
+
+                </ScrollViewer>
+
+            </ScrollViewer>
+
+        </Grid>
+    </Grid>
+
+</phone:PhoneApplicationPage>

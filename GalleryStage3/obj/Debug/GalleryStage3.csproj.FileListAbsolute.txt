@@ -1,0 +1,15 @@
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\GalleryStage3\bin\Debug\GalleryStage3.exe.config
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\GalleryStage3\obj\Debug\GalleryStage3.csprojResolveAssemblyReference.cache
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\GalleryStage3\obj\Debug\GalleryStage3.frmArtist.resources
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\GalleryStage3\obj\Debug\GalleryStage3.frmMain.resources
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\GalleryStage3\obj\Debug\GalleryStage3.frmPainting.resources
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\GalleryStage3\obj\Debug\GalleryStage3.frmPhotograph.resources
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\GalleryStage3\obj\Debug\GalleryStage3.frmSculpture.resources
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\GalleryStage3\obj\Debug\GalleryStage3.frmWork.resources
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\GalleryStage3\obj\Debug\GalleryStage3.InputBox.resources
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\GalleryStage3\obj\Debug\GalleryStage3.Properties.Resources.resources
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\GalleryStage3\obj\Debug\GalleryStage3.csproj.GenerateResource.Cache
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\GalleryStage3\bin\Debug\GalleryStage3.exe
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\GalleryStage3\bin\Debug\GalleryStage3.pdb
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\GalleryStage3\obj\Debug\GalleryStage3.exe
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\GalleryStage3\obj\Debug\GalleryStage3.pdb

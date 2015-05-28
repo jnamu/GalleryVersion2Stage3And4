@@ -1,0 +1,10 @@
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\Gallery3SelfHost\bin\Debug\Gallery3SelfHost.exe.config
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\Gallery3SelfHost\bin\Debug\Gallery3SelfHost.exe
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\Gallery3SelfHost\bin\Debug\Gallery3SelfHost.pdb
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\Gallery3SelfHost\bin\Debug\EntityFramework.dll
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\Gallery3SelfHost\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\Gallery3SelfHost\bin\Debug\EntityFramework.xml
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\Gallery3SelfHost\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\Gallery3SelfHost\obj\Debug\Gallery3SelfHost.csprojResolveAssemblyReference.cache
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\Gallery3SelfHost\obj\Debug\Gallery3SelfHost.exe
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\Gallery3SelfHost\obj\Debug\Gallery3SelfHost.pdb

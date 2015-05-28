@@ -1,0 +1,14 @@
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\Gallery3WinForm\bin\Debug\Gallery3WinForm.exe.config
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\Gallery3WinForm\bin\Debug\Gallery3WinForm.exe
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\Gallery3WinForm\bin\Debug\Gallery3WinForm.pdb
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\Gallery3WinForm\obj\Debug\Gallery3WinForm.frmMain.resources
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\Gallery3WinForm\obj\Debug\Gallery3WinForm.InputBox.resources
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\Gallery3WinForm\obj\Debug\Gallery3WinForm.Properties.Resources.resources
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\Gallery3WinForm\obj\Debug\Gallery3WinForm.csproj.GenerateResource.Cache
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\Gallery3WinForm\obj\Debug\Gallery3WinForm.exe
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\Gallery3WinForm\obj\Debug\Gallery3WinForm.pdb
+c:\users\rebekah-rossiter\documents\visual studio 2013\Projects\GalleryStage3\Gallery3WinForm\obj\Debug\Gallery3WinForm.frmArtist.resources
+C:\Users\rebekah-rossiter\Documents\Visual Studio 2013\Projects\GalleryStage3\Gallery3WinForm\obj\Debug\Gallery3WinForm.frmPainting.resources
+C:\Users\rebekah-rossiter\Documents\Visual Studio 2013\Projects\GalleryStage3\Gallery3WinForm\obj\Debug\Gallery3WinForm.frmPhotograph.resources
+C:\Users\rebekah-rossiter\Documents\Visual Studio 2013\Projects\GalleryStage3\Gallery3WinForm\obj\Debug\Gallery3WinForm.frmSculpture.resources
+C:\Users\rebekah-rossiter\Documents\Visual Studio 2013\Projects\GalleryStage3\Gallery3WinForm\obj\Debug\Gallery3WinForm.frmWork.resources

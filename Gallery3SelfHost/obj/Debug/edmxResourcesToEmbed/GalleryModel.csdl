@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Gallery_DataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Artist">
+    <Key>
+      <PropertyRef Name="Name" />
+    </Key>
+    <Property Name="Name" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Speciality" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Works" Relationship="Self.FK_WORK_ARTIST" FromRole="Artist" ToRole="Work" />
+  </EntityType>
+  <EntityType Name="Work" Abstract="true">
+    <Key>
+      <PropertyRef Name="Name" />
+      <PropertyRef Name="ArtistName" />
+    </Key>
+    <Property Name="Name" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Value" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="ArtistName" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_WORK_ARTIST">
+    <End Role="Artist" Type="Self.Artist" Multiplicity="1" />
+    <End Role="Work" Type="Self.Work" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Artist">
+        <PropertyRef Name="Name" />
+      </Principal>
+      <Dependent Role="Work">
+        <PropertyRef Name="ArtistName" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Gallery_DataEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Artists" EntityType="Self.Artist" />
+    <EntitySet Name="Works" EntityType="Self.Work" />
+    <AssociationSet Name="FK_WORK_ARTIST" Association="Self.FK_WORK_ARTIST">
+      <End Role="Artist" EntitySet="Artists" />
+      <End Role="Work" EntitySet="Works" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Painting" BaseType="Gallery_DataModel.Work">
+    <Property Name="Width" Type="Single" />
+    <Property Name="Height" Type="Single" />
+    <Property Name="Type" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Photograph" BaseType="Gallery_DataModel.Work">
+    <Property Name="Width" Type="Single" />
+    <Property Name="Height" Type="Single" />
+    <Property Name="Type" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Sculpture" BaseType="Gallery_DataModel.Work">
+    <Property Name="Weight" Type="Single" />
+    <Property Name="Material" Type="String" MaxLength="15" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>
